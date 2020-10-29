@@ -1,0 +1,16 @@
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/web/CardResource.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/web/KanbanResource.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/domain/Kanban.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/dao/CardDao.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/domain/Department.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/dao/SectionDao.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/web/SectionResource.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/domain/Employee.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/domain/Section.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/web/EmployeeResource.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/dao/DepartmentDao.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/SampleDataJpaApplication.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/domain/Card.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/dao/KanbanDao.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/web/DepartmentResource.java
+/home/djamel/Documents/M2-CCN-2020-2021/TAA/TAA-TP3-PART3/TAA-TP3-PART3/src/main/java/sample/data/jpa/dao/EmployeeDao.java

@@ -1,0 +1,12 @@
+sample/data/jpa/domain/Kanban.class
+sample/data/jpa/domain/Employee.class
+sample/data/jpa/dao/SectionDao.class
+sample/data/jpa/domain/Section.class
+sample/data/jpa/dao/KanbanDao.class
+sample/data/jpa/SampleDataJpaApplication.class
+sample/data/jpa/dao/CardDao.class
+sample/data/jpa/domain/Card.class
+sample/data/jpa/domain/Department.class
+sample/data/jpa/web/CardResource.class
+sample/data/jpa/dao/DepartmentDao.class
+sample/data/jpa/dao/EmployeeDao.class
