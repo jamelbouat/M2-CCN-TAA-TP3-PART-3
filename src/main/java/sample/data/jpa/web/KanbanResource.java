@@ -32,10 +32,9 @@ public class KanbanResource {
 	}
 	
 	@PostMapping(consumes = "application/json")
-	public ResponseEntity<String> addKanban(@RequestBody Kanban kanban) {
-		kanbanDao.save(kanban);
-		
-		return new ResponseEntity<String>(HttpStatus.OK);
+	public Kanban addKanban(@RequestBody Kanban kanban) {
+
+		return kanbanDao.save(kanban);
 	}
 	
 	@PutMapping(consumes = "application/json")

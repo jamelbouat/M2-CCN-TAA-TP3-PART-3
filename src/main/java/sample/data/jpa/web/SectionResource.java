@@ -31,10 +31,9 @@ public class SectionResource {
 		return section.isPresent() ? section.get() : null;	}
 	
 	@PostMapping(consumes = "application/json")
-	public ResponseEntity<String> addSection(@RequestBody Section section) {
-		sectionDao.save(section);
+	public Section addSection(@RequestBody Section section) {
 		
-		return new ResponseEntity<String>(HttpStatus.OK);
+		return sectionDao.save(section);
 	}
 	
 	@PutMapping(consumes = "application/json")

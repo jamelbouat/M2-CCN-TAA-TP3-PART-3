@@ -32,10 +32,9 @@ public class DepartmentResource {
 	}
 	
 	@PostMapping(consumes = "application/json")
-	public ResponseEntity<String> addDepartment(@RequestBody Department department) {
-		departmentDao.save(department);
+	public Department addDepartment(@RequestBody Department department) {
 		
-		return new ResponseEntity<String>(HttpStatus.OK);
+		return departmentDao.save(department);
 	}
 	
 	@PutMapping(consumes = "application/json")

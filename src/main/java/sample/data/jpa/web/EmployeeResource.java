@@ -32,10 +32,9 @@ public class EmployeeResource {
 	}
 	
 	@PostMapping(consumes = "application/json")
-	public ResponseEntity<String> addEmployee(@RequestBody Employee employee) {
-		employeeDao.save(employee);
+	public Employee addEmployee(@RequestBody Employee employee) {
 		
-		return new ResponseEntity<String>("SUCCESS", HttpStatus.OK);
+		return employeeDao.save(employee);
 	}
 	
 	@PutMapping(consumes = "application/json")

@@ -32,10 +32,9 @@ public class CardResource {
 	}
 	
 	@PostMapping(consumes = "application/json")
-	public ResponseEntity<String> addCard(@RequestBody Card card) {
-		cardDao.save(card);
+	public Card addCard(@RequestBody Card card) {
 		
-		return new ResponseEntity<String>(HttpStatus.OK);
+		return cardDao.save(card);
 	}
 	
 	@PutMapping(consumes = "application/json")
